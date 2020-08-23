@@ -8,13 +8,39 @@ h1 {
 p {
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    height: 100%;
+}
  
-#img-div {
+#main {
+    flex: 1 0 auto;
 }
 
 #image {
-    max-width: 50%;
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+#tribute-link-section{
+    flex-shrink: none;
+}
+
+.reframe {
+    height: auto;
+    width: 20px;
+    background-color: blue;
+}
+
+.card-height {
+    /* height: 300px; */
+}
+
+.title-margin {
+    margin: 50px;
+}
+
+.footer-color {
+    background-color: blue;
 }
