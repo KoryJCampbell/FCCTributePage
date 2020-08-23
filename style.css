@@ -1,12 +1,12 @@
 h1 {
-    color: blue;
+    /* color: red; */
 }
  
 #img-div {
 }
 
 #image {
-    max-width: 40%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
